@@ -21,11 +21,11 @@ trait ObservableTrait
             return $this;
         }
 
-        if ($observer instanceof ObserverInterface) {
-            $this->observers[$event][get_class($observer)] = $observer;
-        } else {
+        if (!($observer instanceof ObserverInterface)) {
             throw new \InvalidArgumentException('The observer must implement the ObserverInterface.');
         }
+
+        $this->observers[$event][get_class($observer)] = $observer;
 
         return $this;
     }

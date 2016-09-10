@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/MichaelKing0/Observers.svg?branch=master)](https://travis-ci.org/MichaelKing0/Observers)
+[![Code Climate](https://codeclimate.com/github/MichaelKing0/Observers/badges/gpa.svg)](https://codeclimate.com/github/MichaelKing0/Observers)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/e03b96d3-5eab-4e12-ad44-e88dbcda2107/mini.png)](https://insight.sensiolabs.com/projects/e03b96d3-5eab-4e12-ad44-e88dbcda2107)
 
 # Basic PHP observer pattern implementation

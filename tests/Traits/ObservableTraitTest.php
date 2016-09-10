@@ -41,6 +41,14 @@ class ObservableTraitTest extends BaseTest
         $this->assertArrayHasKey('Tests\Stubs\ObserverTraitStub', $observers['myevent']);
     }
 
+    /**
+     * @expectedException \InvalidArgumentException
+     */
+    public function testAttachWithInvalidType()
+    {
+        $this->observableTraitStub->attach('myevent', new \stdClass());
+    }
+
     public function testDetachWithSingular()
     {
         $this->setProperty($this->observableTraitStub, 'observers', [
