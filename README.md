@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/MichaelKing0/Observers.svg?branch=master)](https://travis-ci.org/MichaelKing0/Observers)
+
 # Basic PHP observer pattern implementation
 ## Usage
 ### Making a class Observable (the subject)

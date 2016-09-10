@@ -2,6 +2,7 @@
     "name": "michaelking0/observers",
     "description": "A basic implementation of the observer pattern in PHP",
     "type": "library",
+    "license": "MIT",
     "require-dev": {
         "phpunit/phpunit": "^5.5"
     },
@@ -22,5 +23,4 @@
             "Tests\\": "tests/"
         }
     }
-
 }
